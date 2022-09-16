@@ -1,0 +1,116 @@
+site_name: PokéRanking
+site_author: Squad 3 - 2022.1 - MDS - FGA - UnB
+copyright: |
+  &copy; 2022.1 <a href="https://github.com/fga-eps-mds/2022-1-PokeRanking.git"  target="_blank" rel="noopener">Squad 3 - MDS - FGA - UnB</a>
+
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/git-alt
+  logo: "icon-640.png"
+  favicon: "favicon-640.png"
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: red
+      accent: amber 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: red
+      accent: amber
+      
+
+nav:
+  - Início: "index.md"
+  - Documentação:
+    - Termo de Abertura do Projeto: "Documentação/Termo-de-Abertura.md"
+    - Documento de Visão: "Documentação/documento-de-visao.md"
+    - Documento de Arquitetura: "Documentação/documento-de-arquitetura.md"
+    - Documento de Metodologia: "Documentação/Doc_metodologia.md"
+    - Backlog do Produto: "Documentação/product-backlog.md"
+    - Gerenciamento de riscos: "Documentação/Doc-risks.md"
+    - Estrutura Analítica do Projeto: "Documentação/estrutura-analitica.md"
+    - Roadmaps: "Documentação/roadmap.md"
+    - Protótipo de Baixa Fidelidade: "Protótipos/prototipo-de-baixa-fidelidade.md"
+    - Protótipo de Alta Fidelidade: "Protótipos/prototipo-de-alta-fidelidade.md"
+    - Guia de Estilo e Identidade Visual: "Documentação/Guia-de-estilo-e-identidade-visual.md"
+    - Código de Conduta para Colaboradores: "Documentação/CODE_OF_CONDUCT.md"
+    - Canvas: "Documentação/canvas.md"
+  - Sprints:
+    - Sprint 00:
+      - Planning: "Sprints/Sprint_00/planning.md"
+      - Review: "Sprints/Sprint_00/review.md"
+    - Sprint 01:
+      - Planning: "Sprints/Sprint_01/Sprint01_Planning.md"
+      - Review: "Sprints/Sprint_01/Sprint01_Review.md"
+    - Sprint 02:
+      - Planning: "Sprints/Sprint_02/Sprint02_Planning.md"
+      - Review: "Sprints/Sprint_02/Sprint02_Review.md"
+    - Sprint 03:
+      - Planning: "Sprints/Sprint_03/Sprint03_Planning.md"
+      - Review: "Sprints/Sprint_03/Sprint03_Review.md"
+    - Sprint 04:
+      - Planning: "Sprints/Sprint_04/Sprint04_Planning.md"
+      - Review: "Sprints/Sprint_04/Sprint04_Review.md"
+    - Sprint 05:
+      - Planning: "Sprints/Sprint_05/Sprint05_Planning.md"
+      - Review: "Sprints/Sprint_05/Sprint05_Review.md"
+    - Sprint 06:
+      - Planning: "Sprints/Sprint_06/Sprint06_Planning.md"
+      - Review: "Sprints/Sprint_06/Sprint06_Review.md"
+    - Sprint 07:
+      - Planning: "Sprints/Sprint_07/Sprint07_Planning.md"
+      - Review: "Sprints/Sprint_07/Sprint07_Review.md"
+    - Sprint 08:
+      - Planning: "Sprints/Sprint_08/Sprint08_Planning.md"
+      - Review: "Sprints/Sprint_08/Sprint08_Review.md"
+    - Sprint 09:
+      - Planning: "Sprints/Sprint_09/Sprint09_Planning.md"
+      - Review: "Sprints/Sprint_09/Sprint09_Review.md"
+    - Sprint 10:
+      - Planning: "Sprints/Sprint_10/Sprint10_planning.md"
+      - Review: "Sprints/Sprint_10/Sprint10_review.md"
+    - Sprint 11:
+      - Planning: "Sprints/Sprint_11/Sprint11_planning.md"
+      - Review: "Sprints/Sprint_11/Sprint11_review.md"
+    - Sprint 12:
+      - Planning: "Sprints/Sprint_12/Sprint12_planning.md"
+      - Review: "Sprints/Sprint_12/Sprint12_review.md"
+    - Sprint 13:
+      - Planning: "Sprints/Sprint_13/Sprint13_planning.md"
+      - Review: "Sprints/Sprint_13/Sprint13_review.md"
+  - Como contribuir: "Documentação/pol-contribuicao.md"
+
+    
+
+repo_url: https://github.com/fga-eps-mds/2022-1-PokeRanking
+repo_name: fga-eps-mds/2022-1-PokeRanking
+ 
+ 
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+

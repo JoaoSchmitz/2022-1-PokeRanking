@@ -1,0 +1,60 @@
+.bodyFiltro {
+  min-height: 65px;
+
+  font: normal 30px Arial;
+  text-align: center;
+  color: black;
+
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 0px;
+
+  box-shadow: inset 0px 0px 10px #000;
+
+  background: rgb(136, 128, 128);
+}
+
+.filtro {
+  display: flex;
+  flex-direction: row;
+
+  width: 1460px;
+  height: 43px;
+  gap: 22px;
+
+  justify-content: center;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textoFiltro {
+  width: auto;
+  font: normal 25px Arial;
+}
+
+.boxOrdenaPor {
+  padding-top: 15px;
+  width: 265px;
+  height: auto;
+  text-align: center;
+}
+
+.botaoFiltro {
+  margin-top: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  width: 265px;
+  height: 45px;
+  background: #daa49a;
+  text-align: center;
+  color: #000;
+
+  border: 2px solid black;
+  border-radius: 50px;
+
+  cursor: pointer;
+}
